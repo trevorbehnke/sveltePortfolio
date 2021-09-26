@@ -1,0 +1,8 @@
+@tailwind base;
+
+* {
+	@apply !text-black dark:!text-green-300;
+}
+
+@tailwind components;
+@tailwind utilities;

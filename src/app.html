@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="/favicon.png" />
 		%svelte.head%
+		<script>
+			const storageValue = JSON.parse(localStorage.getItem('prefersLight'));
+			const prefersLight = storageValue
+				? Boolean(storageValue)
+				: window?.matchMedia('(prefers-color-scheme: light)').matches;
+
+			if (prefersLight) {
+				document.querySelector('html').classList.remove('dark');
+			}
+		</script>
 	</head>
-	<body>
+	<body class="transition-colors duration-100 bg-white dark:bg-black">
 		<div id="svelte">%svelte.body%</div>
+
+		<!-- this fixes a bug in chrome where animations trigger from unstyled to styled content on page load -->
+		<!-- https://stackoverflow.com/a/42969257/6342734 -->
+		<!-- prettier-ignore -->
+		<script> </script>
 	</body>
 </html>
