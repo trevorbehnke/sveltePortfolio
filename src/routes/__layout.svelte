@@ -10,8 +10,19 @@
 	<div class="mx-auto flex flex-col flex-grow w-full max-w-4xl">
 		<div class="flex h-16 px-4 py-2 justify-between items-center">
 			<h1 class="text-lg sm:text-2xl font-bold">
-				<a href="/">Logo</a>
+				<div class="mb-4 sm:mb-0 w-12 h-12">
+					<a rel="prefetch" href="/#"
+						><img class="object-contain" src="./t-block-light.png" alt="trevor-logo" /></a
+					>
+				</div>
 			</h1>
+			<div>
+				<ul class="flex flex-row">
+					<li class="mx-4"><a rel="prefetch" href="/#">About</a></li>
+					<li class="mx-4"><a rel="prefetch" href="/#">Portfolio</a></li>
+					<li class="mx-4"><a rel="prefetch" href="/#">Contact</a></li>
+				</ul>
+			</div>
 			{#if browser}
 				<button
 					type="button"
