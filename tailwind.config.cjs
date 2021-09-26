@@ -1,12 +1,9 @@
-const config = {
-	mode: "jit",
-	purge: [
-		"./src/**/*.{html,js,svelte,ts}",
-	],
+module.exports = {
+	mode: 'jit',
+	darkMode: 'class',
+	purge: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {},
+		extend: {}
 	},
-	plugins: [],
+	plugins: []
 };
-
-module.exports = config;
