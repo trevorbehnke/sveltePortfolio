@@ -2,7 +2,9 @@
 	import PCard from '$lib/components/PCard.svelte';
 </script>
 
-<h1>Portfolio</h1>
+<hr />
+<h1 class="py-4">Portfolio</h1>
+<hr />
 <PCard
 	title="FakerDex"
 	description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, voluptates aperiam voluptate

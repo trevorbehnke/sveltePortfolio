@@ -1,1 +1,3 @@
-<h1>About</h1>
+<hr />
+<h1 class="py-4">About</h1>
+<hr />

@@ -1,1 +1,3 @@
-<h1>Blog</h1>
+<hr />
+<h1 class="py-4">Blog</h1>
+<hr />
