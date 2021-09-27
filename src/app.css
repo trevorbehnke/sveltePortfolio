@@ -1,7 +1,11 @@
 @tailwind base;
 
 * {
-	@apply !text-black dark:!text-green-300;
+	@apply text-black dark:text-gray-300;
+}
+
+a:hover {
+	@apply text-green-500;
 }
 
 @tailwind components;
