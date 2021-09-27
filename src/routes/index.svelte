@@ -10,11 +10,7 @@
 <div class="flex flex-col flex-grow">
 	<div class="flex-grow">
 		<h1>Hi</h1>
-		<a href="/#" on:click={() => animateScroll.scrollTo({ element: 'h2', duration: 1000 })}>
-			Scroll to element over 2000ms
-		</a>
-
-		<p>
+		<p class="text-green-500">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci delectus dignissimos quis
 			eos pariatur, quasi laborum? Dolorum distinctio beatae, dolore unde tempora mollitia!
 			Voluptates facilis laudantium temporibus eaque repellat, earum facere id quam iste dolor magni
