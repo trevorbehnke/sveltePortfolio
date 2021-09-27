@@ -14,5 +14,7 @@ tempora at minus hic ut vero totam dolorem."
 	sourceTitle="Source"
 	sourceLink="https://bing.com"
 />
+<hr />
 <PCard title="Project 2" />
+<hr />
 <PCard title="Project 3" />

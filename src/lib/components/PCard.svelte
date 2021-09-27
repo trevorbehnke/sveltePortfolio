@@ -8,14 +8,14 @@
 	export let sourceLink;
 </script>
 
-<div class="my-6 flex flex-wrap w-full items-center justify-center bg-green-500 ">
-	<div class="bg-red-500 w-full sm:w-1/2 p-4 flex items-center">
+<div class="my-6 flex flex-wrap w-full items-center justify-center">
+	<div class=" w-full sm:w-1/2 flex items-center">
 		<figure>
 			<img class="rounded-xl" src="./FakerDex.png" alt="FakerDex Landing Page" />
 		</figure>
 	</div>
-	<div class="bg-blue-500 w-full sm:w-1/2 flex flex-col justify-center p-4">
-		<div class="mb-10">
+	<div class=" w-full sm:w-1/2 flex flex-col justify-center px-0 sm:px-4 py-4 sm:py-0">
+		<div class="mb-8">
 			<h1 class="text-center">{title}</h1>
 		</div>
 		<div>
@@ -23,7 +23,7 @@
 				{description}
 			</p>
 		</div>
-		<div class="flex flex-row justify-around mt-10">
+		<div class="flex flex-row justify-around mt-8">
 			<Button title={siteTitle} href={siteLink} />
 			<Button title={sourceTitle} href={sourceLink} />
 		</div>
