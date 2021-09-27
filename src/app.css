@@ -4,6 +4,9 @@
 	@apply text-black dark:text-gray-300;
 }
 
+h1 {
+	@apply text-4xl;
+}
 a:hover {
 	@apply text-green-500;
 }
