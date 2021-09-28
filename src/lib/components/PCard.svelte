@@ -3,15 +3,15 @@
 	export let title;
 	export let description;
 	export let siteLink;
-	export let siteTitle;
-	export let sourceTitle;
 	export let sourceLink;
+	export let src;
+	export let alt;
 </script>
 
 <div class="my-6 flex flex-wrap w-full items-center justify-center">
 	<div class=" w-full sm:w-1/2 flex items-center">
 		<figure>
-			<img class="rounded-xl" src="./FakerDex.png" alt="FakerDex Landing Page" />
+			<img class="rounded-xl" {src} {alt} />
 		</figure>
 	</div>
 	<div class=" w-full sm:w-1/2 flex flex-col justify-center px-0 sm:px-4 py-4 sm:py-0">
@@ -24,8 +24,8 @@
 			</p>
 		</div>
 		<div class="flex flex-row justify-around mt-8">
-			<Button title={siteTitle} href={siteLink} />
-			<Button title={sourceTitle} href={sourceLink} />
+			<Button title="Website" href={siteLink} />
+			<Button title="Source" href={sourceLink} />
 		</div>
 	</div>
 </div>
