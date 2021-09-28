@@ -2,9 +2,10 @@
 	<div class="flex flex-col items-center mt-16">
 		<div class="flex mb-3 space-x-4">
 			<a href="mailto:trevorbehnke@gmail.com" target="_blank">
-				<svg class="fill-current h-6 w-6" viewBox="0 0 18 18"
-					><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-					<path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg
+				<svg class="fill-current h-6 w-6" viewBox="0 0 20 20"
+					><path
+						d="M18 2a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2h16zm-4.37 9.1L20 16v-2l-5.12-3.9L20 6V4l-10 8L0 4v2l5.12 4.1L0 14v2l6.37-4.9L10 14l3.63-2.9z"
+					/></svg
 				>
 			</a>
 			<a href="https://github.com/trevorbehnke" target="_blank">
