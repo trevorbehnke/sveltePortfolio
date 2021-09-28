@@ -1,5 +1,14 @@
 let projects = [
 	{
+		src: './cryptoTracker.png',
+		alt: 'CryptoTracker Landing Page',
+		title: 'Crypto Tracker',
+		description:
+			'This project pulls data from the coinstats.app API. Tutorial project from this blog post -> https://blog.openreplay.com/a-practical-introduction-to-svelte.',
+		siteLink: 'https://svelte-crypto-tracker-4ilvlf8yv-trevorbehnke.vercel.app/',
+		sourceLink: 'https://github.com/trevorbehnke/svelteCryptoTracker'
+	},
+	{
 		src: './FakerDex.png',
 		alt: 'FakerDex Landing Page',
 		title: 'Rolodex',
