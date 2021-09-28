@@ -3,7 +3,11 @@ module.exports = {
 	darkMode: 'class',
 	purge: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			backgroundImage: {
+				'hero-image': 'url(/hero.png)'
+			}
+		}
 	},
 	plugins: []
 };
