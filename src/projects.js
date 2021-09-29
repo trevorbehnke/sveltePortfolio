@@ -1,5 +1,14 @@
 let projects = [
 	{
+		src: './portfolio.png',
+		alt: 'Trevor Behnke Website',
+		title: 'This Website',
+		description:
+			"I built this very website with SvelteKit (pre beta)! It's currently SSG and hosted on Vercel. I'm continuously adding new features as the framework evolves.",
+		siteLink: 'https://svelte-portfolio-five.vercel.app//',
+		sourceLink: 'https://github.com/trevorbehnke/sveltePortfolio'
+	},
+	{
 		src: './cryptoTracker.png',
 		alt: 'CryptoTracker Landing Page',
 		title: 'Crypto Tracker',
