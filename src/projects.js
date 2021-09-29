@@ -9,6 +9,15 @@ let projects = [
 		sourceLink: 'https://github.com/trevorbehnke/svelteCryptoTracker'
 	},
 	{
+		src: './svelteKitPoll.png',
+		alt: 'Poll Website Landing Page',
+		title: 'Polling App',
+		description:
+			"This was the second project from the Net Ninja playlist for Svelte on YouTube. It's a polling app where users can create a poll and then vote on it. The state is tracked in a dedicated store file and persisted with local storage.",
+		siteLink: 'https://svelte-poll-zeta.vercel.app/',
+		sourceLink: 'https://github.com/trevorbehnke/sveltePoll'
+	},
+	{
 		src: './FakerDex.png',
 		alt: 'FakerDex Landing Page',
 		title: 'Rolodex',
@@ -16,6 +25,15 @@ let projects = [
 			'This is the first project I created with SvelteKit. It was a way to learn about dynamic routing and the search functionality which is lightning fast in Svelte! The user information if pulled from the Faker API and avatars are created with the dicbear.com API.',
 		siteLink: 'https://sveltekit-fakerdex.netlify.app/',
 		sourceLink: 'https://github.com/trevorbehnke/svelteKitFakerDex'
+	},
+	{
+		src: './neuGlassCards.png',
+		alt: 'Glass Cards Landing Page',
+		title: 'neuGlass Cards',
+		description:
+			'Created in React, user profiles are dynamically generated with Faker. The goal here was to combine neumorphism with glassmorphism styling and I think it turned out pretty well!',
+		siteLink: 'https://trevorbehnke.github.io/neuGlassCards/',
+		sourceLink: 'https://github.com/trevorbehnke/neuGlassCards'
 	},
 	{
 		src: './TheTaxExperience.png',
