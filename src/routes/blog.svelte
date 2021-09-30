@@ -13,6 +13,8 @@
 </script>
 
 <script>
+  import Head from '$lib/components/Head.svelte'
+
   import ButtonLink from '$lib/components/ButtonLink.svelte'
   import { name } from '$lib/info.js'
   import { format } from 'date-fns'
@@ -24,9 +26,11 @@
 <h1 class="py-4">Blog</h1>
 <hr />
 
-<svelte:head>
+<!-- <svelte:head>
   <title>{name}</title>
-</svelte:head>
+</svelte:head> -->
+
+<Head title={`Blog`} />
 
 <div class="flex flex-col flex-grow prose prose-sm sm:prose lg:prose-lg dark:prose-dark">
   <div class="flex-grow divide-y divide-gray-300 dark:divide-gray-700">

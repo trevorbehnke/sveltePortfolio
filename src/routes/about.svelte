@@ -17,8 +17,12 @@
 </script>
 
 <script>
+  import Head from '$lib/components/Head.svelte'
+
   export let copy
 </script>
+
+<Head title={`About`} />
 
 <hr />
 <h1 class="py-4">About</h1>
