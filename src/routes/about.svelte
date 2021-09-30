@@ -30,7 +30,7 @@
   <hr />
   <div class="flex flex-row justify-between items-center">
     <div>
-      <h1 class="py-4">Portfolio</h1>
+      <h1 class="py-4">About</h1>
     </div>
     <div />
   </div>

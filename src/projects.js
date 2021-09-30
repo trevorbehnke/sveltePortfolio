@@ -5,7 +5,7 @@ let projects = [
     title: 'This Website',
     description:
       "I built this very website with SvelteKit (pre beta)! It's currently SSG and hosted on Vercel. I'm continuously adding new features as the framework evolves.",
-    siteLink: 'https://svelte-portfolio-five.vercel.app//',
+    siteLink: 'https://www.trevorbehnke.com',
     sourceLink: 'https://github.com/trevorbehnke/sveltePortfolio'
   },
   {

@@ -27,7 +27,7 @@ Over the last couple of years, I've taken _hundreds of hours_ of online courses 
 
 ...and read [JavaScript: The Definitive Guide](https://www.oreilly.com/library/view/javascript-the-definitive/9781491952016/) by David Flanagan.
 
-Because we know the best way to learn is to practice, I've also done a bunch of personal projects with the knowledge I gathered from the courses. You can check them out in my [portfolio](http://trevorbehnke.com/projects). Sometimes I also post about programming related topics in my blog.
+Because we know the best way to learn is to practice, I've also done a bunch of personal projects with the knowledge I gathered from the courses. You can check them out in my [portfolio](http://trevorbehnke.com/portfolio). Sometimes I also post about programming related topics in my blog.
 
 Einstein once said...
 
