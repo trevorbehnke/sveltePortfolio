@@ -1,4 +1,6 @@
 <script>
+  import Head from '$lib/components/Head.svelte'
+
   import PCard from '$lib/components/PCard.svelte'
   import projects from '../projects.js'
   let searchTerm = ''
@@ -13,6 +15,8 @@
     }
   }
 </script>
+
+<Head title={`Portfolio`} />
 
 <hr />
 
