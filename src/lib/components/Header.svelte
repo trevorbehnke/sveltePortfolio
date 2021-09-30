@@ -59,6 +59,8 @@
 
 <style>
   .active {
-    border-bottom: 1px solid #10b981;
+    /* fix this */
+    /* color: #34abfb !important; */
+    border-bottom: 1px solid #34abfb;
   }
 </style>

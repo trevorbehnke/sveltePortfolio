@@ -4,6 +4,9 @@ module.exports = {
   purge: ['./src/**/*.{html,js,svelte,ts,md,svx}'],
   theme: {
     extend: {
+      colors: {
+        primary: '#34ABFB'
+      },
       backgroundImage: {
         'hero-image': 'url(/hero.png)'
       },
