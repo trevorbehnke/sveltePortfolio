@@ -18,15 +18,24 @@
 
 <script>
   import Head from '$lib/components/Head.svelte'
-
+  // import TitleBar from '$lib/components/TitleBar.svelte'
   export let copy
 </script>
 
 <Head title={`About`} />
 
-<hr />
-<h1 class="py-4">About</h1>
-<hr />
+<!-- <TitleBar title="About" /> -->
+
+<div class="mb-4">
+  <hr />
+  <div class="flex flex-row justify-between items-center">
+    <div>
+      <h1 class="py-4">Portfolio</h1>
+    </div>
+    <div />
+  </div>
+  <hr />
+</div>
 
 <div class="prose prose-sm sm:prose lg:prose-lg dark:prose-dark">
   <svelte:component this={copy} />

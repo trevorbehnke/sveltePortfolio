@@ -14,17 +14,24 @@
 
 <script>
   import Head from '$lib/components/Head.svelte'
-
+  import TitleBar from '$lib/components/TitleBar.svelte'
   import ButtonLink from '$lib/components/ButtonLink.svelte'
   import { name } from '$lib/info.js'
   import { format } from 'date-fns'
-
   export let posts
-</script>
 
-<hr />
-<h1 class="py-4">Blog</h1>
-<hr />
+  let searchTerm = ''
+  let filteredList = []
+  $: {
+    if (searchTerm) {
+      filteredList = posts.filter((post) =>
+        post.title.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+    } else {
+      filteredList = [...posts]
+    }
+  }
+</script>
 
 <!-- <svelte:head>
   <title>{name}</title>
@@ -32,10 +39,29 @@
 
 <Head title={`Blog`} />
 
+<div class="mb-4">
+  <hr />
+  <div class="flex flex-row justify-between items-center">
+    <div>
+      <h1 class="py-4">Blog</h1>
+    </div>
+
+    <div>
+      <input
+        class="focus:outline-none border-none transition-colors duration-100 text-black dark:text-gray-300 placeholder-black  dark:placeholder-gray-300 bg-white dark:bg-black rounded-md text-md p-2 border-2"
+        bind:value={searchTerm}
+        placeholder="Search Blog..."
+      />
+    </div>
+  </div>
+  <hr />
+</div>
+
 <div class="flex flex-col flex-grow prose prose-sm sm:prose lg:prose-lg dark:prose-dark">
   <div class="flex-grow divide-y divide-gray-300 dark:divide-gray-700">
-    {#each posts as post}
-      <div class="py-8 first:pt-0">
+    {#each filteredList as post}
+      <!-- <div class="py-8 first:pt-0"> -->
+      <div class="py-8">
         <div>
           <h1 class="!mt-0 !mb-1">
             <a href={`/blog/${post.slug}`}>{post.title}</a>

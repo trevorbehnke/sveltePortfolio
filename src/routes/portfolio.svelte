@@ -18,23 +18,22 @@
 
 <Head title={`Portfolio`} />
 
-<hr />
-
-<div class="flex flex-row justify-between items-center">
-  <div>
-    <h1 class="py-4">Portfolio</h1>
+<div class="mb-4">
+  <hr />
+  <div class="flex flex-row justify-between items-center">
+    <div>
+      <h1 class="py-4">Portfolio</h1>
+    </div>
+    <div>
+      <input
+        class="focus:outline-none border-none transition-colors duration-100 text-black dark:text-gray-300 placeholder-black  dark:placeholder-gray-300 bg-white dark:bg-black rounded-md text-md p-2 border-2"
+        bind:value={searchTerm}
+        placeholder="Search Projects..."
+      />
+    </div>
   </div>
-
-  <div>
-    <input
-      class="focus:outline-none border-none transition-colors duration-100 text-black dark:text-gray-300 placeholder-black  dark:placeholder-gray-300 bg-white dark:bg-black rounded-md text-md p-2 border-2"
-      bind:value={searchTerm}
-      placeholder="Search Projects..."
-    />
-  </div>
+  <hr />
 </div>
-
-<hr />
 
 {#each filteredList as project}
   <PCard
