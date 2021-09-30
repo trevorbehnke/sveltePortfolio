@@ -9,7 +9,7 @@
 <div class="flex h-16 px-4 py-2 justify-between items-center">
   <h1 class="text-lg sm:text-2xl font-bold">
     <div class="mb-4 sm:mb-0 w-12 h-12">
-      <a href="/"><img class="object-contain" src="./t-block-light.png" alt="trevor-logo" /></a>
+      <!-- <a href="/"><img class="object-contain" src="./t-block-light.png" alt="trevor-logo" /></a> -->
       <!-- <a on:click={() => animateScroll.scrollToBottom()} rel="prefetch" href="/#"
 				><img class="object-contain" src="./t-block-light.png" alt="trevor-logo" /></a
 			> -->
