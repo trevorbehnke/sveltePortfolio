@@ -43,14 +43,13 @@
   <hr />
   <div class="flex flex-row justify-between items-center">
     <div>
-      <h1 class="py-4">Blog</h1>
+      <h1 class="py-4">Portfolio</h1>
     </div>
-
     <div>
       <input
-        class="focus:outline-none border-none transition-colors duration-100 text-black dark:text-gray-300 placeholder-black  dark:placeholder-gray-300 bg-white dark:bg-black rounded-md text-md p-2 border-2"
+        class="border-black dark:border-gray-300 focus:placeholder-transparent dark:focus:placeholder-transparent focus:outline-none focus:border-primary dark:focus:border-primary text-black dark:text-gray-300 placeholder-black  dark:placeholder-gray-300 bg-white dark:bg-black rounded-md text-md p-2 border-2"
         bind:value={searchTerm}
-        placeholder="Search Blog..."
+        placeholder="Search..."
       />
     </div>
   </div>

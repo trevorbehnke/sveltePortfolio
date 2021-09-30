@@ -4,5 +4,5 @@
 </script>
 
 <button class=" px-2 rounded-full">
-  <a {href} target="_blank">{title} &rArr;</a>
+  <a {href} target="_blank">{title} &rarr;</a>
 </button>
