@@ -1,12 +1,15 @@
 <script context="module">
-	export const prerender = true;
-	import * as animateScroll from 'svelte-scrollto';
+  export const prerender = true
+</script>
+
+<script>
+  import { name } from '$lib/info.js'
 </script>
 
 <svelte:head>
-	<title>Trevor Behnke | Welcome</title>
+  <title>{name}</title>
 </svelte:head>
 
 <div class="flex flex-col flex-grow">
-	<div class="flex-grow bg-hero-image bg-center bg-no-repeat bg-cover relative" />
+  <div class="flex-grow bg-hero-image bg-center bg-no-repeat bg-cover relative" />
 </div>
