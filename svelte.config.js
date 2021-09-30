@@ -20,9 +20,8 @@ const config = {
   kit: {
     target: '#svelte',
     adapter: adapter({
-      pages: 'build',
-      assets: 'build',
-      fallback: null
+      pages: 'public',
+      assets: 'public'
     })
   }
 }
