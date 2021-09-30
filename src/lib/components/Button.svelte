@@ -1,8 +1,8 @@
 <script>
-	export let title;
-	export let href;
+  export let title
+  export let href
 </script>
 
 <button class=" px-2 rounded-full">
-	<a {href} target="_blank">{title} &rArr;</a>
+  <a {href} target="_blank">{title} &rArr;</a>
 </button>
