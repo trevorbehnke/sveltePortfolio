@@ -28,6 +28,7 @@
 </script>
 
 <script>
+  import Head from '$lib/components/Head.svelte'
   import { format } from 'date-fns'
   import ButtonLink from '$lib/components/ButtonLink.svelte'
   import { name, website } from '$lib/info'
@@ -37,7 +38,7 @@
   // metadata
   export let title
   export let date
-  export let preview
+  // export let preview
   export let readingTime
   export let slug
   export let next
@@ -51,26 +52,7 @@
   const url = `${website}/${slug}`
 </script>
 
-<svelte:head>
-  <title>{title}</title>
-  <meta name="description" content={preview} />
-  <meta name="author" content={name} />
-
-  <!-- Facebook Meta Tags -->
-  <meta property="og:url" content={url} />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content={title} />
-  <meta property="og:description" content={preview} />
-  <meta property="og:image" content={ogImage} />
-
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="twitter:domain" content={website} />
-  <meta property="twitter:url" content={url} />
-  <meta name="twitter:title" content={title} />
-  <meta name="twitter:description" content={preview} />
-  <meta name="twitter:image" content={ogImage} />
-</svelte:head>
+<Head {title} />
 
 <article class="prose prose-sm sm:prose lg:prose-lg dark:prose-dark">
   <h1 class="!mt-0 !mb-1">{title}</h1>
