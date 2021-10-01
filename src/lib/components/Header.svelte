@@ -10,9 +10,6 @@
   <div class=" w-12 h-12">
     <a rel="prefetch" href="/"><img class="object-contain" src="./logo.webp" alt="trevor-logo" /></a
     >
-    <!-- <a on:click={() => animateScroll.scrollToBottom()} rel="prefetch" href="/#"
-				><img class="object-contain" src="./t-block-light.png" alt="trevor-logo" /></a
-			> -->
   </div>
 
   <div>
