@@ -35,14 +35,15 @@
   <hr />
 </div>
 
-{#each filteredList as project}
-  <PCard
-    src={project.src}
-    alt={project.alt}
-    title={project.title}
-    description={project.description}
-    siteLink={project.siteLink}
-    sourceLink={project.sourceLink}
-  />
-  <hr />
-{/each}
+<div class="flex-grow divide-y divide-gray-300 dark:divide-gray-700">
+  {#each filteredList as project}
+    <PCard
+      src={project.src}
+      alt={project.alt}
+      title={project.title}
+      description={project.description}
+      siteLink={project.siteLink}
+      sourceLink={project.sourceLink}
+    />
+  {/each}
+</div>
