@@ -44,4 +44,5 @@
     siteLink={project.siteLink}
     sourceLink={project.sourceLink}
   />
+  <hr />
 {/each}
