@@ -8,7 +8,7 @@
   export let alt
 </script>
 
-<div class="py-12 flex flex-wrap w-full items-center justify-center">
+<div class="py-16 flex flex-wrap w-full items-center justify-center">
   <div class=" w-full sm:w-1/2 flex items-center">
     <figure>
       <img class="rounded-xl" {src} {alt} />
