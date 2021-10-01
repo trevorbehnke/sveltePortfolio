@@ -8,7 +8,7 @@ module.exports = {
         primary: '#34ABFB'
       },
       backgroundImage: {
-        'hero-image': 'url(/hero.png)'
+        'hero-image': 'url(/hero.webp)'
       },
       typography: (theme) => {
         return {
