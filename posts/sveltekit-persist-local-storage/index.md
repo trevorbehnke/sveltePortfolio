@@ -13,7 +13,7 @@ This solution starts with an example from the MDN docs which you can find here [
 
 Go ahead an install a fresh skeleton of SvelteKit. I'm choosing "no" for TypeScript, and "yes" for ESLint and Prettier.
 
-In the src directory, create a folder named "stores" and create two files. One file named "persistStore.js" and other named "stores.js". The structure should look like this:
+In the src directory, create a folder named "stores" and create two files. One file named "localStore.js" and other named "stores.js". The structure should look like this:
 
 ```bash
 sveltekit-skeleton/
@@ -21,14 +21,14 @@ sveltekit-skeleton/
 │ └─ routes/
 │ │ └─ index.svelte/
 │ └─ stores/
-│ │ └─ persistStore.js/
+│ │ └─ localStore.js/
 │ │ └─ stores.js/
 ...rest of the files
 ```
 
 The following code will work in Svelte but **_NOT_** SvelteKit (right now anyway). I will add the solution after we see the errors first...
 
-Add the following to persistStore.js:
+Add the following to localStore.js:
 
 ```javascript
 import { writable } from 'svelte/store';
