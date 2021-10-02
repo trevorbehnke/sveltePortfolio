@@ -129,7 +129,7 @@ export const localStore = (key, initial) => {
 }
 ```
 
-And then updated index.svelte as follows:
+And then update index.svelte as follows:
 
 ```svelte
 <!-- Turn this file into a module so that is runs when the component is initialised -->
