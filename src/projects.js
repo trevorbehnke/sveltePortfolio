@@ -1,5 +1,14 @@
 let projects = [
   {
+    src: './dayChart.png',
+    alt: 'Day Chart App Website',
+    title: 'Day Chart',
+    description:
+      'A productivity application that visualizes user input to render a unique perspective on a 24-hour day. Complete CRUD and persistant local storage.',
+    siteLink: 'https://www.daychart.app'
+    // sourceLink: 'https://github.com/trevorbehnke/sveltePortfolio'
+  },
+  {
     src: './portfolio.png',
     alt: 'Trevor Behnke Website',
     title: 'This Website',
