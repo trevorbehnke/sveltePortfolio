@@ -23,8 +23,8 @@
       <li class:active={$page.path === '/blog'} class="mx-4">
         <a rel="prefetch" href="/blog">Blog</a>
       </li>
-      <li class:active={$page.path === '/creds'} class="mx-4">
-        <a rel="prefetch" href="/creds">Creds</a>
+      <li class:active={$page.path === '/certs'} class="mx-4">
+        <a rel="prefetch" href="/certs">Certs</a>
       </li>
     </ul>
   </div>

@@ -4,13 +4,13 @@
   import creds from '../creds'
 </script>
 
-<Head title={`Creds`} />
+<Head title={`Certs`} />
 
 <div class="mb-4">
   <hr />
   <div class="flex flex-row justify-between items-center">
     <div>
-      <h1 class="py-4">Creds</h1>
+      <h1 class="py-4">Certifications</h1>
     </div>
   </div>
   <hr />

@@ -1,5 +1,14 @@
 let projects = [
   {
+    src: './fsd.png',
+    alt: 'Trev Token',
+    title: 'Trev Token',
+    description:
+      'Created my own ERC-20 cryptocurrency, "Trev Token" using OpenZeppelin. Built with Next.js, Ethers.js, Solidity, and Hardhat. Deployed on Ropsten test network via Infura.',
+    siteLink: 'https://full-stack-dapp.vercel.app/',
+    sourceLink: 'https://github.com/trevorbehnke/fullStackDapp'
+  },
+  {
     src: './dayChart.png',
     alt: 'Day Chart App Website',
     title: 'Day Chart',
