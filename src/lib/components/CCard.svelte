@@ -7,7 +7,7 @@
 <div class="py-8 flex flex-wrap w-full items-center justify-center">
   <div class=" w-full flex items-center">
     <figure>
-      <img class="rounded-xl" {src} {alt} />
+      <img class="rounded-xl border dark:border-white border-blue-400 " {src} {alt} />
     </figure>
   </div>
   <!-- <div class=" w-full sm:w-1/2 flex flex-col justify-center px-0 sm:px-4 py-4 sm:py-0">
