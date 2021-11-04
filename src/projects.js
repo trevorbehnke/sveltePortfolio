@@ -1,5 +1,14 @@
 let projects = [
   {
+    src: './magic.png',
+    alt: 'Magic Match game',
+    title: 'Magic Match',
+    description:
+      'A memory match game built with vanilla React. Showcases state management and lifecycle methods.',
+    siteLink: 'https://nn-magic-match.vercel.app/',
+    sourceLink: 'https://github.com/trevorbehnke/nnMagicMatch'
+  },
+  {
     src: './fsd.png',
     alt: 'Trev Token',
     title: 'Trev Token',
