@@ -1,5 +1,14 @@
 let projects = [
   {
+    src: './fsrf.png',
+    alt: 'full stack react firebase',
+    title: 'Full-Stack React & Firebase',
+    description:
+      'Boilerplate for a full-stack CRUD web application. Features user authentication and mobile-first design. Built with React, Firebase, and Tailwind.',
+    siteLink: 'https://fsrf-b888c.web.app/',
+    sourceLink: 'https://github.com/trevorbehnke/fullStackReactFirebase'
+  },
+  {
     src: './magic.png',
     alt: 'Magic Match game',
     title: 'Magic Match',
