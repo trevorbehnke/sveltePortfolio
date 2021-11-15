@@ -9,22 +9,13 @@ let projects = [
     sourceLink: 'https://github.com/trevorbehnke/fullStackReactFirebase'
   },
   {
-    src: './magic.png',
-    alt: 'Magic Match game',
-    title: 'Magic Match',
-    description:
-      'A memory match game built with vanilla React. Showcases state management and lifecycle methods.',
-    siteLink: 'https://nn-magic-match.vercel.app/',
-    sourceLink: 'https://github.com/trevorbehnke/nnMagicMatch'
-  },
-  {
-    src: './fsd.png',
+    src: './tvt.png',
     alt: 'Trev Token',
     title: 'Trev Token',
     description:
-      'Created my own ERC-20 cryptocurrency, "Trev Token" using OpenZeppelin. Built with Next.js, Ethers.js, Solidity, and Hardhat. Deployed on Ropsten test network via Infura.',
-    siteLink: 'https://full-stack-dapp.vercel.app/',
-    sourceLink: 'https://github.com/trevorbehnke/fullStackDapp'
+      'Created my own ERC-20 cryptocurrency, "Trev Token" using OpenZeppelin. Built with Next.js, Ethers.js, Solidity, and Hardhat. Deployed on Ropsten test network via Infura. Faucet construction in progress.',
+    siteLink: 'https://www.fullstackdapp.com/',
+    sourceLink: 'https://github.com/trevorbehnke/svelteKitFullStackDapp'
   },
   {
     src: './dayChart.png',
@@ -32,8 +23,8 @@ let projects = [
     title: 'Day Chart',
     description:
       'A productivity application that visualizes user input to render a unique perspective on a 24-hour day. Complete CRUD and persistant local storage.',
-    siteLink: 'https://www.daychart.app'
-    // sourceLink: 'https://github.com/trevorbehnke/sveltePortfolio'
+    siteLink: 'https://www.daychart.app',
+    sourceLink: 'https://github.com/trevorbehnke/dayChart'
   },
   {
     src: './portfolio.png',
@@ -52,6 +43,15 @@ let projects = [
       'This project pulls data from the coinstats.app API. Tutorial project from this blog post -> https://blog.openreplay.com/a-practical-introduction-to-svelte.',
     siteLink: 'https://svelte-crypto-tracker-4ilvlf8yv-trevorbehnke.vercel.app/',
     sourceLink: 'https://github.com/trevorbehnke/svelteCryptoTracker'
+  },
+  {
+    src: './magic.png',
+    alt: 'Magic Match game',
+    title: 'Magic Match',
+    description:
+      'A memory match game built with vanilla React. Showcases state management and lifecycle methods.',
+    siteLink: 'https://nn-magic-match.vercel.app/',
+    sourceLink: 'https://github.com/trevorbehnke/nnMagicMatch'
   },
   {
     src: './svelteKitPoll.png',
