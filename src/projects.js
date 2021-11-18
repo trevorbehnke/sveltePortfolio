@@ -1,5 +1,14 @@
 let projects = [
   {
+    src: './lottery.png',
+    alt: 'Blockchain Lottery',
+    title: 'Blockchain Lottery',
+    description:
+      'Lottery game on the Ethereum blockchain. Deployed to the Ropsten test network. Must have MetaMask installed to play. (React, Solidity, Hardhat, Infura, Ropsten)',
+    siteLink: 'https://lottery-chi.vercel.app/',
+    sourceLink: 'https://github.com/trevorbehnke/lottery'
+  },
+  {
     src: './fsrf.png',
     alt: 'full stack react firebase',
     title: 'Full-Stack React & Firebase',
