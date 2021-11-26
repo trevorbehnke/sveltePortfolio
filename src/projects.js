@@ -1,5 +1,14 @@
 let projects = [
   {
+    src: './nft_minter.png',
+    alt: 'NFT Minter',
+    title: 'Easy NFT Minter',
+    description:
+      'A quick and easy way to deploy your own NFT! Currently, live on Ropsten testnet. Try it out and let me know what you think! (React, Ethereum, Solidity, Hardhat, Alchemy, Ropsten)',
+    siteLink: 'https://www.easynft.page/',
+    sourceLink: 'https://github.com/trevorbehnke/nft_minter'
+  },
+  {
     src: './lottery.png',
     alt: 'Blockchain Lottery',
     title: 'Blockchain Lottery',
