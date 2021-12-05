@@ -1,5 +1,14 @@
 let projects = [
   {
+    src: './solanaMinter.png',
+    alt: 'Solana Minter',
+    title: 'Solana NFT Drop',
+    description:
+      'A decentralized NFT drop that allows users to buy one-of-a-kind NFTs. Minting capability only opens after the drop date. Built on the Solana blockchain via Metaplex Candy Machine.',
+    siteLink: 'https://solana-minter.vercel.app/',
+    sourceLink: 'https://github.com/trevorbehnke/solanaMinter'
+  },
+  {
     src: './nft_minter.png',
     alt: 'NFT Minter',
     title: 'Easy NFT Minter',
